@@ -4,3 +4,10 @@ table, th, td {
     border: 1px solid black;
     background-color: pink;
   }
+img {
+  width: 30%;
+  height: 30%;
+}
+th {
+  text-align: center;
+}

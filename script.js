@@ -11,9 +11,11 @@ for (let i = 0; i < uzvaretajuSkaits; i++) {
     let rand = Math.random() * vardi.length;
     rand = Math.floor(rand);//noapaļo uz leju
     let uzvaretajs = vardi[rand];//izvada konsolē
+    let uzvaretajs1 = balvas[rand];
     rindas.innerHTML += `
 <tr>
 <td>${i+1}</td>
 <td>${uzvaretajs}</td>
+<td>${uzvaretajs1}</td>
 </tr>`
 }
